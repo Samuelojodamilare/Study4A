@@ -9,7 +9,7 @@ const Header = () => {
             <img src={S4ALogo} alt="S4A" width={145} height={40} />
           </a>
         </div>
-        <div className="hidden md:flex justify-between items-center w-64">
+        <div className="hidden sm:flex justify-between items-center w-64">
           <a
             href="#"
             className="text-white/50 p-1 hover:text-white transition-colors text-xl leading-7 font-poppins">

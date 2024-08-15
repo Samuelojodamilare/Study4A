@@ -11,12 +11,12 @@ const Hero = () => {
       <div
         className="relative flex lg:flex-row flex-col py-16"
         ref={parallaxRef}>
-        <div className="flex flex-col justify-center lg:items-start items-center text-center lg:text-left px-16">
-          <h1 className="lg:max-w-[549px] font-poppins text-text-3 text-[28px] lg:text-[40px] leading-[36px] lg:leading-[65px] font-extrabold">
+        <div className="flex flex-col justify-center sm:items-start items-center text-center sm:text-left px-10 lg:px-16">
+          <h1 className="sm:max-w-[549px] font-poppins text-text-3 text-[28px] sm:text-[40px] leading-[36px] sm:leading-[65px] font-extrabold">
             An AI powered cloud-based, cohort centric multi-school LMS Software
             Suite
           </h1>
-          <p className="lg:max-w-[550px] lg:mt-5 mt-7 font-poppins text-text-2 font-normal text-[18px] leading-[29.5px]">
+          <p className="sm:max-w-[550px] lg:mt-5 mt-7 font-poppins text-text-2 font-normal text-[18px] leading-[29.5px]">
             Study4As makes training, managing, tracking and follow-up learners
             individually or as a class super easy. Offering Institutions a
             dynamic data driven and efficient training workflow

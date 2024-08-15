@@ -22,21 +22,17 @@ import {
 } from "../assets";
 
 export const management = [
-  {
-    title: "Management Feature List",
-    content: [
-      "Creation of Courses",
-      "Group Creation/ Management",
-      "Question and Answer",
-      "Feedback",
-      "Grading System",
-      "Integrated Quiz",
-      "Integrated Form",
-      "Invitation to Class",
-      "Reusable Resources",
-      "Syllabus Creation",
-    ],
-  },
+  "Creation of Courses",
+
+  "Question and Answer",
+  "Group Creation/ Management",
+  "Feedback",
+  "Grading System",
+  "Integrated Quiz",
+  "Integrated Form",
+  "Invitation to Class",
+  "Reusable Resources",
+  "Syllabus Creation",
 ];
 
 export const communication = [

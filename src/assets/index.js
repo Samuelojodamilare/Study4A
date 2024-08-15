@@ -1,6 +1,6 @@
 import assistanceimage from "./assistance-img.png";
 import chart from "./chart.png";
-import check from "./checksvg.svg";
+import check from "./checksvg2.svg";
 import gradingLaptop from "./grading-laptop.png";
 import managementImage from "./mgt-image.png";
 import operationImage from "./operation-img.png";
