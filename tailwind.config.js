@@ -28,14 +28,10 @@ export default {
         poppins: "var(--font-poppins)",
       },
       backgroundImage: {
-        "circle-gradient":
-          "linear-gradient(90deg, rgba(101,55,128,1) 37%, rgba(241,191,250,1) 100%);",
         "circle-gradient-2":
           "linear-gradient(270deg, rgba(234, 224, 243, 0.67) 31.25%, rgba(96, 32, 160, 0.12) 139.29%)",
-        "circle-gradient-3":
-          "linear-gradient(270deg, rgba(234,224,243,0.9304971988795518) 51%, rgba(96,32,160,1) 100%)",
-        "circle-gradient-4":
-          "linear-gradient(270deg, rgba(234,224,243,1) 29%, rgba(191,165,217,1) 71%, rgba(96,32,160,1) 100%)",
+        "purple-gradient":
+          "linear-gradient(95deg, rgba(242,230,252,1) 71%, rgba(252,247,255,1) 100%);",
       },
     },
   },

@@ -23,7 +23,6 @@ import {
 
 export const management = [
   "Creation of Courses",
-
   "Question and Answer",
   "Group Creation/ Management",
   "Feedback",
@@ -40,25 +39,25 @@ export const communication = [
     id: 0,
     title: "Question and Answer",
     text: "Schools can facilitate engaging learning interactions with teacher-moderated question and answer sessions, allowing them to guide discussion and address queries",
-    iconUrl: communicationIcon1,
+    icon: communicationIcon1,
   },
   {
     id: 1,
     title: "Announcement",
     text: "Schools can facilitate engaging learning interactions with teacher-moderated question and answer sessions, allowing them to guide discussion and address queries",
-    iconUrl: communicationIcon2,
+    icon: communicationIcon2,
   },
   {
     id: 2,
     title: "Integrated Polls",
     text: "Schools can facilitate engaging learning interactions with teacher-moderated question and answer sessions, allowing them to guide discussion and address queries",
-    iconUrl: communicationIcon3,
+    icon: communicationIcon3,
   },
   {
     id: 3,
     title: "One-on-One Support",
     text: "Schools can facilitate engaging learning interactions with teacher-moderated question and answer sessions, allowing them to guide discussion and address queries",
-    iconUrl: communicationIcon4,
+    icon: communicationIcon4,
   },
 ];
 

@@ -9,6 +9,7 @@ import roleImage from "./role-img.png";
 import stars from "./stars.png";
 import trackingImage from "./tracking-img.png";
 import prepcohortLogo from "./prepcohort-logo.svg";
+import prepcohortLogo2 from "./pc-square.svg";
 import S4ALogo from "./S4A-logo.svg";
 
 import appIcon1 from "./app-icons/icon-1.png";
@@ -57,6 +58,7 @@ export {
   stars,
   trackingImage,
   prepcohortLogo,
+  prepcohortLogo2,
   appIcon1,
   appIcon2,
   appIcon3,

@@ -1,10 +1,13 @@
 const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
-
   heading2:
-    "font-poppins font-bold xs:text-[48px] text-[20px] text-text-3 leading-[40px] w-full",
+    "font-poppins text-primary font-medium sm:text-[20px] text-[14px] leading-[35px]",
+  heading3:
+    "font-poppins font-bold sm:text-[48px] text-[20px] text-text-3 leading-[40px] w-full",
+  heading6:
+    "font-poppins font-medium sm:text-[18px] text-[14px] leading-9 text-text-1 ml-4",
   paragraph:
-    "font-poppins font-normal text-text-2 sm:text-[24px] text-[12px] sm:leading-[37px] leading-[20px] sm:max-w-[759px] max-w-[316px]",
+    "font-poppins font-normal text-text-1 sm:text-[24px] text-[12px] sm:leading-[37px] leading-[20px] sm:max-w-[759px] max-w-[316px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
@@ -18,11 +21,11 @@ const styles = {
 };
 
 export const layout = {
-  section: `flex md:flex-row flex-col ${styles.paddingY}`,
-  sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
+  section: `flex lg:flex-row flex-col ${styles.paddingY}`,
+  sectionReverse: `flex lg:flex-row flex-col-reverse ${styles.paddingY}`,
 
-  sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
-  sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
+  sectionImgReverse: `flex-1 flex ${styles.flexCenter} lg:mr-10 mr-0 lg:mt-0 mt-10 relative`,
+  sectionImg: `flex-1 flex ${styles.flexCenter} lg:ml-10 ml-0 lg:mt-0 mt-10 relative`,
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };

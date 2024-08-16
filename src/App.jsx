@@ -1,6 +1,8 @@
+import Communication from "./components/Communication";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Management from "./components/Management";
+import Prepcohort from "./components/Prepcohort";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <Hero />
       <Management />
+      <Prepcohort />
+      <Communication />
     </div>
   );
 }
