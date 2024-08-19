@@ -1,6 +1,6 @@
 import { communication } from "../constant";
 import styles from "../style";
-import CommunicationCard from "./CommunicationCard";
+import CommunicationCard from "./design/CommunicationCard";
 
 const Communication = () => {
   return (

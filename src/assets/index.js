@@ -7,7 +7,7 @@ import operationImage from "./operation-img.png";
 import roadMap from "./road-map.png";
 import roleImage from "./role-img.png";
 import stars from "./stars.png";
-import trackingImage from "./tracking-img.png";
+import trackingImage from "./trackingImg.png";
 import prepcohortLogo from "./prepcohort-logo.svg";
 import prepcohortLogo2 from "./pc-square.svg";
 import S4ALogo from "./S4A-logo.svg";

@@ -62,42 +62,27 @@ export const communication = [
 ];
 
 export const role = [
-  {
-    title: "Role Feature List",
-    content: [
-      "Role Creation",
-      "Role Assignment",
-      "Role Permission",
-      "Staff Onboarding",
-      "Multiple Role Assignment",
-      "Permission Removal",
-      "Super Admin Role",
-    ],
-  },
+  "Role Creation",
+  "Role Assignment",
+  "Role Permission",
+  "Staff Onboarding",
+  "Multiple Role Assignment",
+  "Permission Removal",
+  "Super Admin Role",
 ];
 
-export const operation = [
-  {
-    title: "Operation Feature List",
-    content: ["Private", "Public (Marketplace)", "Both"],
-  },
-];
+export const operation = ["Private", "Public (Marketplace)", "Both"];
 
 export const tracking = [
-  {
-    title: "Role Feature List",
-    content: [
-      "Course Completion",
-      "Participation",
-      "Weekly Calculation",
-      "Scores Report",
-      "Speed Report",
-      "Confidence Report",
-      "Graphical Analytic Report",
-      "Learning Motivation Module",
-      "Cumulative Estimation",
-    ],
-  },
+  "Course Completion",
+  "Participation",
+  "Weekly Calculation",
+  "Scores Report",
+  "Speed Report",
+  "Confidence Report",
+  "Graphical Analytic Report",
+  "Learning Motivation Module",
+  "Cumulative Estimation",
 ];
 
 export const app = [
