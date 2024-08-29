@@ -7,7 +7,7 @@ const styles = {
   heading6:
     "font-poppins font-medium sm:text-[18px] text-[14px] leading-9 text-text-1 ml-4",
   paragraph:
-    "font-poppins font-normal text-text-1 sm:text-[24px] text-[12px] sm:leading-[37px] leading-[20px] sm:max-w-[759px] max-w-[316px]",
+    "font-poppins font-normal text-text-1 sm:text-[18px] text-[12px] sm:leading-[30.8px] leading-[20px] sm:max-w-[759px] max-w-[316px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

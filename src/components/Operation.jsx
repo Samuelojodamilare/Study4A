@@ -5,7 +5,7 @@ import styles, { layout } from "../style";
 const Operation = () => {
   return (
     <section className={`${styles.paddingX} w-full`}>
-      <div className={`${layout.sectionReverse} ${styles.paddingY}`}>
+      <div className={`${layout.sectionReverse}`}>
         <div className={`${layout.sectionImgReverse}`}>
           <img
             src={operationImage}

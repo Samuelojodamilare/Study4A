@@ -18,11 +18,11 @@ const Prepcohort = () => {
           </div>
           <div className={`${styles.flexCenter} mt-10 md:mt-0`}>
             <img
-              src={prepcohortLogo2}
+              src={prepcohortLogo}
               alt="logo"
               width={216}
               height={214}
-              className="w-full h-auto max-w-[216px]"
+              className="w-full h-auto max-w-[300px]"
             />
           </div>
         </div>

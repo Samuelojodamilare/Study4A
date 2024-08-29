@@ -8,6 +8,13 @@ import Role from "./components/Role";
 import School from "./components/School";
 import Tracking from "./components/Tracking";
 import CustomApp from "./components/CustomApp";
+import Revenue from "./components/Revenue";
+import Result from "./components/Result";
+import Assistant from "./components/Assistant";
+import Contact from "./components/Contact";
+import Reviews from "./components/Reviews";
+import { reviews } from "./constant";
+import RoadMap from "./components/RoadMap";
 
 function App() {
   return (
@@ -22,6 +29,12 @@ function App() {
       <Operation />
       <Tracking />
       <CustomApp />
+      <Revenue />
+      <Result />
+      <Assistant />
+      <Contact />
+      <Reviews Reviews={reviews} />
+      <RoadMap />
     </div>
   );
 }

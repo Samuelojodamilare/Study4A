@@ -24,11 +24,7 @@ const School = () => {
         </div>
 
         <div className="hidden md:block absolute top-[32%] lg:top-[25%] xl:top-[20%] right-[0%] md:max-w-[190px] lg:max-w-[260px] xl:max-w-[390px] h-auto pointer-events-none">
-          <img
-            src={stars}
-            alt="stars"
-            className="w-[full]  h-full opacity-50"
-          />
+          <img src={stars} alt="stars" className="w-full  h-full opacity-50" />
         </div>
       </div>
     </section>

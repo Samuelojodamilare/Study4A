@@ -6,6 +6,7 @@ import managementImage from "./mgt-image.png";
 import operationImage from "./operation-img.png";
 import roadMap from "./road-map.png";
 import roleImage from "./role-img.png";
+import resultImage from "./resultImg.png";
 import stars from "./stars.png";
 import trackingImage from "./trackingImg.png";
 import prepcohortLogo from "./prepcohort-logo.svg";
@@ -55,6 +56,7 @@ export {
   operationImage,
   roadMap,
   roleImage,
+  resultImage,
   stars,
   trackingImage,
   prepcohortLogo,

@@ -132,32 +132,22 @@ export const revenue = [
 ];
 
 export const result = [
-  {
-    title: "Result Feature List",
-    content: [
-      "Auto Grading",
-      "Standard Grading",
-      "Rubric Grading",
-      "Grade Summary",
-      "Grade Email Feedback",
-      "Grade Details",
-      "Result Publishing",
-    ],
-  },
+  "Auto Grading",
+  "Standard Grading",
+  "Rubric Grading",
+  "Grade Summary",
+  "Grade Email Feedback",
+  "Grade Details",
+  "Result Publishing",
 ];
 
 export const assistance = [
-  {
-    title: "Feature List",
-    content: [
-      "Private",
-      "Public (Marketplace)",
-      "Both",
-      "Private",
-      "Public (Marketplace)",
-      "Both",
-    ],
-  },
+  "Private",
+  "Public (Marketplace)",
+  "Both",
+  "Private",
+  "Public (Marketplace)",
+  "Both",
 ];
 
 export const contact = [
@@ -168,13 +158,13 @@ export const contact = [
     iconUrl: phone,
   },
   {
-    id: 0,
+    id: 1,
     text: "Email Us",
     content: "info@prepcohort.com",
     iconUrl: envelope,
   },
   {
-    id: 0,
+    id: 2,
     text: "Locate Us",
     content:
       "No 8, Elshadai Cresent, Baruwa, Ipaja, Iyana Ipaja, Lagos, Nigeria.",
@@ -186,24 +176,35 @@ export const reviews = [
   {
     id: 0,
     title: "Clement James",
+    rating: "5",
     text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
     iconUrl: guy,
   },
   {
     id: 1,
     title: "Cynthia Adejoke",
+    rating: "4",
     text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
     iconUrl: lady,
   },
   {
     id: 2,
     title: "Clement James",
+    rating: "5",
     text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
     iconUrl: guy,
   },
   {
     id: 3,
     title: "Cynthia Adejoke",
+    rating: "5",
+    text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
+    iconUrl: lady,
+  },
+  {
+    id: 4,
+    title: "Cynthia Janet",
+    rating: "4",
     text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
     iconUrl: lady,
   },

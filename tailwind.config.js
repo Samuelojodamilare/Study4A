@@ -9,7 +9,7 @@ export default {
         bg: {
           hm: "#f6f1f9",
           br: "#EFEDF0",
-          pp: "#C376D6",
+          pp: "rgba(195, 118, 214, 0.2)",
           ct: "#F5F0F6",
         },
         text: {
