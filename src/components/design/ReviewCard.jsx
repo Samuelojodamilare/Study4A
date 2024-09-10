@@ -10,9 +10,9 @@ const ReviewCard = ({ review }) => {
           className="lg:w-12 w-8 lg:h-12 h-8 mr-4"
         />
         <div>
-          <h4 className="font-poppins font-medium text-text-3 lg:text-[22px] text-[18px] lg:leading-[35px] leading-[30px]">
+          <h3 className="font-poppins font-medium text-text-3 lg:text-[22px] text-[18px] lg:leading-[35px] leading-[30px]">
             {review.title}
-          </h4>
+          </h3>
           <div className="flex items-center">
             {[...Array(5)].map((_, index) => (
               <span key={index}>

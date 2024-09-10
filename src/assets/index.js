@@ -2,8 +2,9 @@ import assistanceimage from "./assistance-img.png";
 import chart from "./chart.png";
 import check from "./checksvg2.svg";
 import gradingLaptop from "./grading-laptop.png";
+import gradient from "./gradient.png";
 import managementImage from "./mgt-image.png";
-import operationImage from "./operation-img.png";
+import operationImage from "./service-operation1.png";
 import roadMap from "./road-map.png";
 import roleImage from "./role-img.png";
 import resultImage from "./resultImg.png";
@@ -12,6 +13,8 @@ import trackingImage from "./trackingImg.png";
 import prepcohortLogo from "./prepcohort-logo.svg";
 import prepcohortLogo2 from "./pc-square.svg";
 import S4ALogo from "./S4A-logo.svg";
+import S4ALogo2 from "./S4A-Alogo.svg";
+import caret from "./caret.svg";
 
 import appIcon1 from "./app-icons/icon-1.png";
 import appIcon2 from "./app-icons/icon-2.png";
@@ -32,8 +35,9 @@ import facebook from "./footer/Facebook.png";
 import instagram from "./footer/instagram.png";
 
 import heroRing from "./hero/hero-bg-ring.png";
-import heroImage from "./hero/hero-img.png";
+import heroRing2 from "./hero/hero-bg-ring.webp";
 import heroImage2 from "./hero/hero-img2.png";
+import heroImage from "./hero/hero-img.webp";
 
 import revenueImage from "./revenue/revenue-img.png";
 import revenueIcon1 from "./revenue/reviconsvg-1.svg";
@@ -49,9 +53,12 @@ import rating from "./reviews/rating.png";
 export {
   assistanceimage,
   S4ALogo,
+  S4ALogo2,
   chart,
+  caret,
   check,
   gradingLaptop,
+  gradient,
   managementImage,
   operationImage,
   roadMap,
@@ -76,6 +83,7 @@ export {
   facebook,
   instagram,
   heroRing,
+  heroRing2,
   heroImage,
   heroImage2,
   revenueImage,

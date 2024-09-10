@@ -212,24 +212,19 @@ export const reviews = [
 
 export const footer = [
   {
-    title: "contact",
-    content: [
-      {
-        id: 0,
-        text: "info@prepcohort.com",
-        iconUrl: envelope,
-      },
-      {
-        id: 1,
-        text: "09033746143",
-        iconUrl: phone,
-      },
-      {
-        id: 2,
-        text: "6116 Willa River Suite 610",
-        iconUrl: location,
-      },
-    ],
+    id: 0,
+    text: "info@prepcohort.com",
+    iconUrl: envelope,
+  },
+  {
+    id: 1,
+    text: "09033746143",
+    iconUrl: phone,
+  },
+  {
+    id: 2,
+    text: "6116 Willa River Suite 610",
+    iconUrl: location,
   },
 ];
 

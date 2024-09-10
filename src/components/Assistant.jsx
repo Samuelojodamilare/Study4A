@@ -6,7 +6,7 @@ import { check } from "../assets";
 const Assistant = () => {
   return (
     <section className={`${styles.paddingX} w-full relative overflow-visible `}>
-      <div className={`${layout.sectionReverse} relative z-[2]`}>
+      <div className={`${layout.sectionReverse} items-center relative z-[2]`}>
         <div className={`${layout.sectionImgReverse} max-w-[496px]`}>
           <img
             src={assistanceimage}
@@ -17,12 +17,12 @@ const Assistant = () => {
           />
         </div>
 
-        <div className={`${layout.sectionInfo} ml-10`}>
+        <div className={`${layout.sectionInfo} ml-0 sm:ml-10`}>
           <div className="bg-secondary rounded-full sm:px-4 px-2 sm:py-2 py-1 sm:mb-7 mb-4">
             <h2 className={`${styles.heading2}`}>ASSISTANCE</h2>
           </div>
 
-          <h3 className={`${styles.heading3} sm:mb-6 mb-0`}>
+          <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
             AI Teaching Assistant
           </h3>
 
@@ -31,7 +31,7 @@ const Assistant = () => {
             learning journey for both educators and students
           </p>
 
-          <h3 className="font-poppins font-semibold text-[24px] text-text-2 leading-[35px] sm:mb-6 mb-4">
+          <h3 className="font-poppins font-semibold sm:text-[24px] text-[18px] text-text-2 leading-[35px] sm:mb-6 mb-4">
             {" "}
             Feature List:
           </h3>
@@ -40,7 +40,7 @@ const Assistant = () => {
             {assistance.map((items, index) => (
               <li key={index} className="flex items-center mb-2">
                 <img src={check} alt="check" height={31} width={31} />
-                <h6 className={`${styles.heading6}`}>{items} </h6>
+                <h4 className={`${styles.heading6}`}>{items} </h4>
               </li>
             ))}
           </ul>

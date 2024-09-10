@@ -19,7 +19,7 @@ const Heroballs = ({ parallaxRef }) => {
               }`}></div>
           </div>
 
-          <div className="absolute top-[8%] left-[10%] ">
+          <div className="absolute sm:top-[8%] top-[45%] left-[10%] ">
             <div
               className={`w-[65px] h-[65px] rounded-full bg-circle-gradient-2 transition-transform duration-500 ease-out ${
                 mounted
@@ -37,7 +37,7 @@ const Heroballs = ({ parallaxRef }) => {
               }`}></div>
           </div>
 
-          <div className="absolute top-[5%] left-[47%] ">
+          <div className="absolute sm:top-[5%] top-[20%] sm:left-[47%] right-[10%]">
             <div
               className={`w-[44px] h-[44px] rounded-full bg-circle-gradient-2 transition-transform duration-500 ease-out ${
                 mounted
@@ -46,7 +46,7 @@ const Heroballs = ({ parallaxRef }) => {
               }`}></div>
           </div>
 
-          <div className="absolute bottom-[10%] left-[30%] ">
+          <div className="hidden sm:block  absolute bottom-[10%] left-[30%] ">
             <div
               className={`w-[114px] h-[114px] rounded-full bg-circle-gradient-2 transition-transform duration-500 ease-out ${
                 mounted

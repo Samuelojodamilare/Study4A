@@ -1,29 +1,29 @@
 import { useRef } from "react";
-import { heroImage2, heroRing } from "../assets";
+import { heroImage, heroRing, heroRing2 } from "../assets";
 import Button from "./Button";
 import Heroballs from "./design/Heroballs";
 
-const Hero = () => {
+const Hero = ({ onBookDemoClick }) => {
   const parallaxRef = useRef(null);
   return (
-    <section className="w-full relative mt-3 ">
+    <section id="hero" className="w-full relative mt-3 ">
       <Heroballs />
       <div
-        className="relative flex lg:flex-row flex-col py-16"
+        className="relative flex lg:flex-row flex-col py-6 sm:py-16"
         ref={parallaxRef}>
-        <div className="flex flex-col justify-center sm:items-start items-center text-center sm:text-left px-10 lg:px-16">
-          <h1 className="sm:max-w-[549px] font-poppins text-text-3 text-[28px] sm:text-[40px] leading-[36px] sm:leading-[65px] font-extrabold">
+        <div className="flex flex-col justify-center sm:items-start items-center text-center sm:text-left px-6 lg:px-16">
+          <h1 className="lg:max-w-[549px] sm:max-w-[600px] font-poppins text-text-3 text-[24px] sm:text-[40px] leading-[36px] sm:leading-[65px] font-extrabold">
             An AI powered cloud-based, cohort centric multi-school LMS Software
             Suite
           </h1>
-          <p className="sm:max-w-[550px] lg:mt-5 mt-7 font-poppins text-text-2 font-normal text-[18px] leading-[29.5px]">
+          <p className="sm:max-w-[550px] lg:mt-5 mt-7 font-poppins text-text-2 font-normal sm:text-[18px] text-[16px] leading-[29.5px]">
             Study4As makes training, managing, tracking and follow-up learners
             individually or as a class super easy. Offering Institutions a
             dynamic data driven and efficient training workflow
           </p>
 
           <Button
-            href="#"
+            onClick={onBookDemoClick}
             spanClass="inline-block transition-transform hover:rotate-6 ease-in-out duration-500"
             className="bg-primary py-3.5 px-6 text-lg font-bold mt-5 sm:mt-7">
             Explore With Us
@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="relative flex-1 flex justify-center items-center lg:my-5 my-20 lg:mx-0 mx-12">
           <div className="relative w-full max-w-[775px] h-auto">
             <img
-              src={heroImage2}
+              src={heroImage}
               width={775}
               height={620}
               alt="dashboard"
@@ -41,7 +41,7 @@ const Hero = () => {
             />
 
             <img
-              src={heroRing}
+              src={heroRing2}
               width={809.43}
               height={900.54}
               alt="ring"

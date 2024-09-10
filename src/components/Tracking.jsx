@@ -1,17 +1,18 @@
 import { check, trackingImage } from "../assets";
 import { tracking } from "../constant";
 import styles, { layout } from "../style";
+import GradientLight from "./design/GradientLight";
 
 const Tracking = () => {
   return (
-    <section className={`${styles.paddingX} w-full`}>
-      <div className={`${layout.section}`}>
+    <section className={`relative ${styles.paddingX} w-full`}>
+      <div className={`relative z-10 ${layout.section}`}>
         <div className={`${layout.sectionInfo}`}>
           <div className="bg-secondary rounded-full sm:px-4 px-2 sm:py-2 py-1 sm:mb-7 mb-4">
             <h2 className={`${styles.heading2}`}>TRACKING</h2>
           </div>
 
-          <h3 className={`${styles.heading3} sm:mb-6 mb-0`}>Study Tracking</h3>
+          <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>Study Tracking</h3>
 
           <p className={`${styles.paragraph} sm:mb-6 mb-4`}>
             Efficiently monitor and analyze student progress. Educators get
@@ -19,7 +20,7 @@ const Tracking = () => {
             teaching strategies
           </p>
 
-          <h3 className="font-poppins font-semibold text-[24px] text-text-2 leading-[35px] sm:mb-6 mb-4 ">
+          <h3 className="font-poppins font-semibold text-[18px] sm:text-[24px] text-text-2 leading-[35px] sm:mb-6 mb-4 ">
             Tracking Feature List:
           </h3>
 
@@ -27,15 +28,22 @@ const Tracking = () => {
             {tracking.map((items, index) => (
               <li key={index} className="flex items-center mb-2">
                 <img src={check} alt="check" width={31} height={31} />
-                <h6 className={`${styles.heading6}`}>{items} </h6>
+                <h4 className={`${styles.heading6}`}>{items} </h4>
               </li>
             ))}
           </ul>
         </div>
 
-        <div className={`${layout.sectionImg}`}>
-          <img src={trackingImage} alt="laptop" />
+        <div className={`${layout.sectionImg} max-w-[550px] h-auto`}>
+          <img
+            src={trackingImage}
+            width={550}
+            height={501.02}
+            alt="laptop"
+            className="w-full h-auto"
+          />
         </div>
+        <GradientLight className="top-[-20%] right-[30%]" />
       </div>
     </section>
   );

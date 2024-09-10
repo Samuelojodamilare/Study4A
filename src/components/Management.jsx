@@ -21,7 +21,7 @@ const Management = () => {
             <h2 className={`${styles.heading2}`}>MANAGEMENT</h2>
           </div>
 
-          <h3 className={`${styles.heading3} sm:mb-6 mb-0`}>
+          <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
             Classroom Management{" "}
           </h3>
 
@@ -30,14 +30,14 @@ const Management = () => {
             classroom lessons, ensuring a smooth and uninterrupted delivery of
             instruction
           </p>
-          <h3 className="font-poppins font-semibold text-[24px] text-text-2 leading-[35px] sm:mb-6 mb-4">
+          <h3 className="font-poppins font-semibold sm:text-[24px] text-[18px] text-text-2 leading-[35px] sm:mb-6 mb-4">
             Management Feature List:
           </h3>
           <ul className="grid sm:grid-cols-2 grid-cols-1 gap-x-6 gap-y-4">
             {management.map((items, index) => (
               <li key={index} className="flex items-center mb-2">
                 <img src={check} alt="check" width={31} height={31} />
-                <h6 className={`${styles.heading6}`}>{items} </h6>
+                <h4 className={`${styles.heading6}`}>{items} </h4>
               </li>
             ))}
           </ul>

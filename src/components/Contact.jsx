@@ -6,7 +6,7 @@ const Contact = () => {
     <section className={`${styles.paddingX} w-full relative z-[2]`}>
       <div className={`${styles.paddingY} flex flex-col`}>
         <div className="text-center mb-10">
-          <h2 className="font-merriweather font-medium lg:text-[50px] md:text-[48px] text-[40px] text-text-3 leading-[35px] mb-4">
+          <h2 className="font-merriweather font-medium lg:text-[50px] md:text-[48px] text-[30px] text-text-3 leading-[35px] mb-4">
             Contact Us
           </h2>
           <p className="font-poppins font-normal sm:text-[20px] text-[14px] text-text-2 sm:leading-[26px] leading-[20px] max-w-[727px] mx-auto">
@@ -17,10 +17,18 @@ const Contact = () => {
           {contact.map((items) => (
             <div
               key={items.id}
-              className="relative flex flex-col text-center items-center border m-3 rounded-lg bg-bg-ct p-6 w-full sm:w-[30%] max-w-[350px] transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+              className="relative flex flex-col text-center items-center border m-3 rounded-lg bg-bg-ct p-6 w-full sm:w-[30%] max-w-[350px] transition-transform duration-300 hover:scale-105 hover:shadow-lg mb-6 sm:mb-0"
               style={{ minHeight: "250px" }}>
               <div className=" transform translate-y-[-85%] flex justify-center items-center p-4 bg-primary rounded-full lg:w-[70px] w-[60px] lg:h-[70px] h-[60px]">
-                <img src={items.iconUrl} alt={items.text} />
+                <div className="max-w-[50px] h-auto">
+                  <img
+                    src={items.iconUrl}
+                    alt={items.text}
+                    width={50}
+                    height={50}
+                    className="w-full h-auto"
+                  />
+                </div>
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h3 className="font-poppins font-medium lg:text-[26px] sm:text-[20px] leading-[30px] text-text-3 lg:leading-[35px] mb-3">

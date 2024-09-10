@@ -5,24 +5,32 @@ import styles, { layout } from "../style";
 const Revenue = () => {
   return (
     <section className={`${styles.paddingX} w-full relative overflow-visible`}>
-      <div className="flex flex-col items-center w-full relative z-[2]">
+      <div className={` flex flex-col items-center w-full relative z-[2]`}>
         <h3
-          className={`font-merriweather font-medium lg:text-[50px] md:text-[48px] text-[20px] text-text-3 leading-[35px]`}>
+          className={`font-merriweather text-center sm:font-medium font-bold lg:text-[50px] md:text-[48px] text-[20px] text-text-3 leading-[25px] sm:leading-[35px]`}>
           Revenue Generation Mode
         </h3>
         <div className={`${layout.sectionReverse}`}>
           <div className={`${layout.sectionImgReverse} max-w-[557px]`}>
             <img src={revenueImage} alt="" width={557} height={598} />
           </div>
-          <div className={`${layout.sectionInfo} ml-10`}>
+          <div className={`${layout.sectionInfo} md:ml-10 ml-2`}>
             {revenue.map((items) => (
               <div
                 key={items.id}
                 className={`flex items-center p-4 shadow-md rounded-lg w-full bg-white border border-bd-2 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg ${
                   items.id < 3 ? "mb-4" : ""
                 }`}>
-                <div className="bg-secondary w-[65px] h-[65px] p-2 rounded-full flex items-center justify-center mr-4">
-                  <img src={items.iconUrl} alt={items.title} />
+                <div className="bg-secondary max-w-[80px] h-auto p-3 rounded-full flex items-center justify-center mr-4">
+                  <div className="max-w-[35px] h-auto">
+                    <img
+                      src={items.iconUrl}
+                      width={40}
+                      height={40}
+                      alt={items.title}
+                      className="w-full h-auto"
+                    />
+                  </div>
                 </div>
                 <p className="font-poppins font-medium text-text-3 sm:text-[18px] text-[14px] sm:leading-[23.46px] leading-[16.42px] ">
                   {items.title}{" "}

@@ -15,12 +15,23 @@ import Contact from "./components/Contact";
 import Reviews from "./components/Reviews";
 import { reviews } from "./constant";
 import RoadMap from "./components/RoadMap";
+import Footer from "./components/Footer";
+import { useState } from "react";
+import Demo from "./components/Demo";
 
 function App() {
+  const [isDemoPageOpen, setIsDemoPageOpen] = useState(false);
+  const handleOpenDemo = () => {
+    setIsDemoPageOpen(true);
+  };
+  const handleCloseDemo = () => {
+    setIsDemoPageOpen(false);
+  };
   return (
     <div className="pt-[4.75rem] lg:pt-[5.25rem] w-full overflow-hidden ">
-      <Header />
-      <Hero />
+      <Header onBookDemoClick={handleOpenDemo} />
+      <Hero onBookDemoClick={handleOpenDemo} />
+      {isDemoPageOpen && <Demo onClose={handleCloseDemo} />}
       <Management />
       <Prepcohort />
       <Communication />
@@ -33,8 +44,9 @@ function App() {
       <Result />
       <Assistant />
       <Contact />
-      <Reviews Reviews={reviews} />
+      <Reviews />
       <RoadMap />
+      <Footer />
     </div>
   );
 }

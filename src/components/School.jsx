@@ -6,7 +6,7 @@ const School = () => {
   return (
     <section className={`${styles.paddingX} w-full relative bg-bg-br/50 z-[1]`}>
       <div className={`flex flex-col items-center ${styles.paddingY}`}>
-        <h2 className="font-poppins font-extrabold sm:text-[52px] text-[24px] text-text-3 leading-[35px] sm:mb-5 mb-3">
+        <h2 className="font-poppins font-extrabold sm:text-[52px] md:text-[48px] text-[20px] text-text-3 leading-[35px] sm:mb-5 mb-3">
           Multi-school Instances
         </h2>
         <p className="font-lato font-normal sm:text-[20px] text-[18px] text-text-2 sm:leading-[30px] leading-[24px] max-w-[727px] text-center sm:mb-8 mb-6">

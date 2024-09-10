@@ -35,11 +35,17 @@ const Reviews = () => {
   return (
     <section className={`${styles.paddingX} w-full bg-bg-pp relative`}>
       <div className="absolute bottom-[-5%] right-[-2%] lg:max-w-[353.53px] sm:max-w-[250px] max-w-[200px]">
-        <img src={polygon} alt="polygon" className="h-auto w-full" />
+        <img
+          src={polygon}
+          alt="polygon"
+          width={353}
+          height={286}
+          className="h-auto w-full"
+        />
       </div>
       <div className={`${styles.paddingY} z-[1]`}>
         <div className="flex flex-col items-center mb-2">
-          <h2 className="font-poppins font-medium lg:text-[54px] md:text-[50px] text-[40px] text-primary leading-[54px] sm:mb-5 mb-3">
+          <h2 className="font-poppins font-medium lg:text-[54px] md:text-[50px] text-center text-[30px] text-primary leading-[54px] sm:mb-5 mb-3">
             Some Reviews
           </h2>
           <p className="font-poppins font-normal sm:text-[18px] text-[16px] text-text-2 sm:leading-[21px] leading-[18px] max-w-[612px] text-center sm:mb-4 mb-2 ">
