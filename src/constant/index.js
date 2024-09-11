@@ -232,20 +232,20 @@ export const socials = [
   {
     id: "0",
     title: "Twitter",
-    iconUrl: twitter,
+    iconUrl: "https://x.com/PrepCohort",
     url: "#",
   },
   {
     id: "1",
     title: "Instagram",
-    iconUrl: instagram,
+    iconUrl: "https://www.instagram.com/prepcohort/",
     url: "#",
   },
 
   {
     id: "2",
     title: "Facebook",
-    iconUrl: facebook,
+    iconUrl: "https://web.facebook.com/PrepCohort",
     url: "#",
   },
 ];
