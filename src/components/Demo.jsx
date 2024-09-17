@@ -1,7 +1,28 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { caret, S4ALogo } from "../assets";
 import styles from "../style";
 
 const Demo = ({ onClose }) => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_v4a1ojb", "Demo_form", form.current, {
+        publicKey: "dlTRPUEXivfbOXdj1",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
     <section
       id="demo"
@@ -41,39 +62,52 @@ const Demo = ({ onClose }) => {
             </p>
           </div>
         </div>
+
         <div className="sm:w-1/2 lg:p-7 sm:p-5 py-2 px-4">
-          <form action="" className="sm:space-y-3 space-y-2">
+          <form
+            onSubmit={sendEmail}
+            ref={form}
+            className="sm:space-y-3 space-y-2">
             <input
               type="text"
               placeholder="Full name*"
+              required
+              name="from_name"
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:outline-none"
             />
             <input
               type="email"
               placeholder="Email*"
+              required
+              name="from_email"
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:outline-none"
             />
             <input
               type="tel"
               placeholder="Phone Number*"
+              required
+              name="from_phone"
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:outline-none"
             />
             <select
+              required
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:text-white focus:outline-none appearance-none"
               style={{
                 backgroundImage: `url(${caret})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "right 20px center",
-
                 backgroundSize: "16px",
               }}>
-              <option value="disabled selected">Job Role*</option>
+              <option value="" disabled selected>
+                Job Role*
+              </option>
               <option value="Administrator">Administrator</option>
               <option value="Principal">Principal</option>
               <option value="Secretary">Secretary</option>
               <option value="Other">Other</option>
             </select>
             <select
+              required
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:text-white focus:outline-none appearance-none"
               style={{
                 backgroundImage: `url(${caret})`,
@@ -81,7 +115,9 @@ const Demo = ({ onClose }) => {
                 backgroundPosition: "right 20px center",
                 backgroundSize: "16px",
               }}>
-              <option value="disabled selected">Organization Type*</option>
+              <option value="" disabled selected>
+                Organization Type*
+              </option>
               <option value="Corporate">Corporate</option>
               <option value="Government">Government</option>
               <option value="Higher Education">Higher Education</option>
@@ -93,6 +129,7 @@ const Demo = ({ onClose }) => {
               <option value="Marketplace">Marketplace</option>
             </select>
             <select
+              required
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:text-white focus:outline-none appearance-none"
               style={{
                 backgroundImage: `url(${caret})`,
@@ -100,7 +137,7 @@ const Demo = ({ onClose }) => {
                 backgroundPosition: "right 20px center",
                 backgroundSize: "16px",
               }}>
-              <option value="disabled selected">
+              <option value="" disabled selected>
                 Which Best Describes your Project?*
               </option>
               <option value="A Startup">A Startup</option>
@@ -109,6 +146,7 @@ const Demo = ({ onClose }) => {
               </option>
             </select>
             <select
+              required
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:text-white focus:outline-none appearance-none"
               style={{
                 backgroundImage: `url(${caret})`,
@@ -116,7 +154,7 @@ const Demo = ({ onClose }) => {
                 backgroundPosition: "right 20px center",
                 backgroundSize: "16px",
               }}>
-              <option value="disabled selected">
+              <option value="" disabled selected>
                 Where Did you Get to Know About Us?
               </option>
               <option value="Google">Google</option>
