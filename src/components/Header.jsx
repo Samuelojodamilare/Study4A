@@ -24,7 +24,7 @@ const Header = ({ onBookDemoClick }) => {
   }, []);
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  ${
+      className={`fixed top-0 left-0 w-full z-40  ${
         isBlurred ? "backdrop-blur-md bg-primary/75" : "bg-primary"
       } transition-all duration-300`}>
       <div className="flex items-center justify-between lg:mx-16 sm:mx-10 mx-6 px-1 sm:px-2 sm:py-6 py-4">

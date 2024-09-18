@@ -1,21 +1,24 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { caret, S4ALogo } from "../assets";
 import styles from "../style";
 
-const Demo = ({ onClose }) => {
+const Demo = ({ onClose, onModalOpen }) => {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_v4a1ojb", "Demo_form", form.current, {
-        publicKey: "dlTRPUEXivfbOXdj1",
-      })
+      .sendForm(
+        "service_v4a1ojb",
+        "Demo_form",
+        form.current,
+        "dlTRPUEXivfbOXdj1"
+      )
       .then(
         () => {
-          console.log("SUCCESS!");
+          onModalOpen();
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -26,7 +29,7 @@ const Demo = ({ onClose }) => {
   return (
     <section
       id="demo"
-      className="fixed inset-0 z-50 flex justify-center items-center bg-black bg-opacity-50 p-6"
+      className="fixed inset-0 z-40 flex justify-center items-center bg-black bg-opacity-50 backdrop-blur-sm p-6"
       onClick={onClose}>
       <div
         className={`relative w-full max-w-lg sm:max-w-4xl lg:max-w-4xl flex flex-col sm:flex-row bg-Demo-gradient rounded-xl overflow-hidden py-4 sm:py-7 lg:py-10 max-h-full sm:max-h-[100vh]`}
@@ -65,7 +68,7 @@ const Demo = ({ onClose }) => {
 
         <div className="sm:w-1/2 lg:p-7 sm:p-5 py-2 px-4">
           <form
-            onSubmit={sendEmail}
+            onSubmit={handleSubmit}
             ref={form}
             className="sm:space-y-3 space-y-2">
             <input

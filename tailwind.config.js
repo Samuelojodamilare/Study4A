@@ -13,6 +13,7 @@ export default {
           ct: "#F5F0F6",
           ft: "#1A0C23",
           form: "rgba(217, 217, 217, 0.56)",
+          not: "#F5F5F5",
         },
         text: {
           1: "#666666",

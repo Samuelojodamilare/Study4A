@@ -16,6 +16,10 @@ import S4ALogo from "./S4A-logo.svg";
 import S4ALogo2 from "./S4A-Alogo.svg";
 import caret from "./caret.svg";
 
+import modalLeft from "./modal/modal_left.png";
+import modalRight from "./modal/modal_right.png";
+import modalImg from "./modal/modalImg.png";
+
 import appIcon1 from "./app-icons/icon-1.png";
 import appIcon2 from "./app-icons/icon-2.png";
 import appIcon3 from "./app-icons/icon-3.png";
@@ -57,6 +61,9 @@ export {
   chart,
   caret,
   check,
+  modalImg,
+  modalLeft,
+  modalRight,
   gradingLaptop,
   gradient,
   managementImage,
