@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { S4ALogo, S4ALogo2 } from "../assets";
 import Button from "./Button";
+
 const Header = ({ onBookDemoClick }) => {
   const [isBlurred, setIsBlurred] = useState(false);
 
@@ -9,9 +10,8 @@ const Header = ({ onBookDemoClick }) => {
       const heroSection = document.getElementById("hero");
       if (heroSection) {
         const heroTop = heroSection.getBoundingClientRect().top;
-        console.log("heroSection top", heroTop);
+
         if (heroTop <= 0) {
-          console.log("header should be blur now");
           setIsBlurred(true);
         } else {
           setIsBlurred(false);
@@ -50,11 +50,6 @@ const Header = ({ onBookDemoClick }) => {
         </div>
 
         <div className="flex justify-between items-center">
-          {/* <a
-            href="#"
-            className="text-white/50 p-1 hover:text-white transition-colors text-xl leading-7 font-poppins">
-            Sign in
-          </a> */}
           <Button
             onClick={onBookDemoClick}
             className="border transition hover:border-white/50">

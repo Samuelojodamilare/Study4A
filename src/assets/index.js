@@ -15,6 +15,9 @@ import prepcohortLogo2 from "./pc-square.svg";
 import S4ALogo from "./S4A-logo.svg";
 import S4ALogo2 from "./S4A-Alogo.svg";
 import caret from "./caret.svg";
+import customImg from "./customizationImg.png";
+import customFill from "./customFill.svg";
+import customUnfill from "./customUnfill.svg";
 
 import modalLeft from "./modal/modal_left.png";
 import modalRight from "./modal/modal_right.png";
@@ -61,6 +64,9 @@ export {
   chart,
   caret,
   check,
+  customImg,
+  customFill,
+  customUnfill,
   modalImg,
   modalLeft,
   modalRight,

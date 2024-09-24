@@ -44,6 +44,16 @@ export default {
       mixBlendMode: {
         "color-dodge": "color-dodge",
       },
+      animation: {
+        moveLeft: "moveLeft 50s linear infinite",
+        moveRight: "moveLeft 50s linear infinite reverse",
+      },
+      keyframes: {
+        moveLeft: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
     },
   },
   variants: {
@@ -51,5 +61,13 @@ export default {
       placeholder: ["focus", "hover"],
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".pause": {
+          "animation-play-state": "paused",
+        },
+      });
+    },
+  ],
 };

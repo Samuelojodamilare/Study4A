@@ -19,6 +19,8 @@ import {
   twitter,
   instagram,
   facebook,
+  customFill,
+  customUnfill,
 } from "../assets";
 
 export const management = [
@@ -128,6 +130,69 @@ export const revenue = [
     id: 3,
     title: "From any combination of the 3 above",
     iconUrl: revenueIcon4,
+  },
+];
+
+export const custom = [
+  {
+    id: 0,
+    title: "Creation of Courses",
+    icon: customFill,
+  },
+  {
+    id: 1,
+    title: "Group Creation/ Management",
+    icon: customFill,
+  },
+  {
+    id: 2,
+    title: "Grading System",
+    icon: customUnfill,
+  },
+  {
+    id: 3,
+    title: "Feedback",
+    icon: customFill,
+  },
+  {
+    id: 4,
+    title: "Question and Answer",
+    icon: customUnfill,
+  },
+  {
+    id: 5,
+    title: "Role Creation",
+    icon: customUnfill,
+  },
+  {
+    id: 6,
+    title: "Role Assignment",
+    icon: customFill,
+  },
+  {
+    id: 7,
+    title: "Role Permission",
+    icon: customFill,
+  },
+  {
+    id: 8,
+    title: "Staff Onboarding",
+    icon: customUnfill,
+  },
+  {
+    id: 9,
+    title: "Multiple Role Assignment",
+    icon: customUnfill,
+  },
+  {
+    id: 10,
+    title: "Permission Removal",
+    icon: customFill,
+  },
+  {
+    id: 11,
+    title: "Super Admin Role",
+    icon: customUnfill,
   },
 ];
 

@@ -1,7 +1,6 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { caret, S4ALogo } from "../assets";
-import styles from "../style";
 
 const Demo = ({ onClose, onModalOpen }) => {
   const form = useRef();
@@ -94,6 +93,7 @@ const Demo = ({ onClose, onModalOpen }) => {
             />
             <select
               required
+              defaultValue=""
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:text-white focus:outline-none appearance-none"
               style={{
                 backgroundImage: `url(${caret})`,
@@ -101,7 +101,7 @@ const Demo = ({ onClose, onModalOpen }) => {
                 backgroundPosition: "right 20px center",
                 backgroundSize: "16px",
               }}>
-              <option value="" disabled selected>
+              <option value="" disabled>
                 Job Role*
               </option>
               <option value="Administrator">Administrator</option>
@@ -111,6 +111,7 @@ const Demo = ({ onClose, onModalOpen }) => {
             </select>
             <select
               required
+              defaultValue=""
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:text-white focus:outline-none appearance-none"
               style={{
                 backgroundImage: `url(${caret})`,
@@ -118,7 +119,7 @@ const Demo = ({ onClose, onModalOpen }) => {
                 backgroundPosition: "right 20px center",
                 backgroundSize: "16px",
               }}>
-              <option value="" disabled selected>
+              <option value="" disabled>
                 Organization Type*
               </option>
               <option value="Corporate">Corporate</option>
@@ -133,6 +134,7 @@ const Demo = ({ onClose, onModalOpen }) => {
             </select>
             <select
               required
+              defaultValue=""
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:text-white focus:outline-none appearance-none"
               style={{
                 backgroundImage: `url(${caret})`,
@@ -140,7 +142,7 @@ const Demo = ({ onClose, onModalOpen }) => {
                 backgroundPosition: "right 20px center",
                 backgroundSize: "16px",
               }}>
-              <option value="" disabled selected>
+              <option value="" disabled>
                 Which Best Describes your Project?*
               </option>
               <option value="A Startup">A Startup</option>
@@ -150,6 +152,7 @@ const Demo = ({ onClose, onModalOpen }) => {
             </select>
             <select
               required
+              defaultValue=""
               className="w-full lg:p-4 sm:p-3 p-2 border font-normal font-poppins lg:text-[16px] sm:text-[14px] text-[12px] sm:leading-[21.11px] leading-4 border-bd-3/30 bg-bg-form/20 placeholder-white text-white rounded-md focus:bg-primary/70 focus:text-white focus:outline-none appearance-none"
               style={{
                 backgroundImage: `url(${caret})`,
@@ -157,7 +160,7 @@ const Demo = ({ onClose, onModalOpen }) => {
                 backgroundPosition: "right 20px center",
                 backgroundSize: "16px",
               }}>
-              <option value="" disabled selected>
+              <option value="" disabled>
                 Where Did you Get to Know About Us?
               </option>
               <option value="Google">Google</option>
