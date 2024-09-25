@@ -10,7 +10,7 @@ const Operation = () => {
           <div className="w-[483px] h-auto">
             <img
               src={operationImage}
-              alt=""
+              alt="lady sitting with a laptop,servicing"
               width={483}
               height={482}
               className="w-full h-auto"

@@ -40,7 +40,7 @@ const Role = () => {
           <div className={`${styles.paddingX} relative w-full h-auto`}>
             <img
               src={roleImage}
-              alt=""
+              alt="three men on a card"
               width={488}
               height={545}
               className="w-full h-auto"

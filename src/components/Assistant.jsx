@@ -10,7 +10,7 @@ const Assistant = () => {
         <div className={`${layout.sectionImgReverse} max-w-[496px]`}>
           <img
             src={assistanceimage}
-            alt=""
+            alt="A man with a laptop and a robot with a laptop"
             width={496}
             height={259}
             className="w-full h-auto"

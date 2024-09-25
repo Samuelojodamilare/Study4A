@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { heroImage, heroRing, heroRing2 } from "../assets";
+import { heroImage, heroRing2 } from "../assets";
 import Button from "./Button";
 import Heroballs from "./design/Heroballs";
 
@@ -11,7 +11,7 @@ const Hero = ({ onBookDemoClick }) => {
       <div
         className="relative flex lg:flex-row flex-col py-6 sm:py-16"
         ref={parallaxRef}>
-        <div className="flex flex-col justify-center sm:items-start items-center text-center sm:text-left px-6 lg:px-16">
+        <div className="flex flex-col justify-center sm:items-start items-center text-center sm:text-left px-6 sm:px-16">
           <h1 className="lg:max-w-[549px] sm:max-w-[600px] font-poppins text-text-3 text-[24px] sm:text-[40px] leading-[36px] sm:leading-[65px] font-extrabold">
             An AI powered cloud-based, cohort centric multi-school LMS Software
             Suite

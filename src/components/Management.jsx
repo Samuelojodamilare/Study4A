@@ -9,7 +9,7 @@ const Management = () => {
         <div className={`${layout.sectionImgReverse}`}>
           <img
             src={managementImage}
-            alt=""
+            alt="management features image"
             width={733}
             height={496}
             className="w-full h-auto"

@@ -12,7 +12,12 @@ const Revenue = () => {
         </h3>
         <div className={`${layout.sectionReverse}`}>
           <div className={`${layout.sectionImgReverse} max-w-[557px]`}>
-            <img src={revenueImage} alt="" width={557} height={598} />
+            <img
+              src={revenueImage}
+              alt="A man standing with some coins, globe and arrow"
+              width={557}
+              height={598}
+            />
           </div>
           <div className={`${layout.sectionInfo} md:ml-10 ml-2`}>
             {revenue.map((items) => (

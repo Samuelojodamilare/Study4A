@@ -1,5 +1,5 @@
-import { prepcohortLogo, prepcohortLogo2 } from "../assets";
-import styles, { layout } from "../style";
+import { prepcohortLogo } from "../assets";
+import styles from "../style";
 
 const Prepcohort = () => {
   return (
