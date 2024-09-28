@@ -18,10 +18,6 @@ const Assistant = () => {
         </div>
 
         <div className={`${layout.sectionInfo} ml-0 sm:ml-10`}>
-          <div className="bg-secondary rounded-full sm:px-4 px-2 sm:py-2 py-1 sm:mb-7 mb-4">
-            <h2 className={`${styles.heading2}`}>ASSISTANCE</h2>
-          </div>
-
           <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
             AI Teaching Assistant
           </h3>

@@ -228,7 +228,7 @@ export const contact = [
   {
     id: 0,
     text: "Call Us",
-    content: ["+234 9024567845", "+234 9033746143"],
+    content: ["+1 7098530339"],
     iconUrl: phone,
   },
   {
@@ -241,7 +241,7 @@ export const contact = [
     id: 2,
     text: "Locate Us",
     content:
-      "No 8, Elshadai Cresent, Baruwa, Ipaja, Iyana Ipaja, Lagos, Nigeria.",
+      "57 Tigress Street, A1B0L6, St. John's, Newfoundland, Canada.",
     iconUrl: location,
   },
 ];
@@ -292,12 +292,12 @@ export const footer = [
   },
   {
     id: 1,
-    text: "09033746143",
+    text: "+1 7098530339",
     iconUrl: phone,
   },
   {
     id: 2,
-    text: "6116 Willa River Suite 610",
+    text: "57 Tigress Street, A1B0L6, St. John's, Newfoundland, Canada.",
     iconUrl: location,
   },
 ];
