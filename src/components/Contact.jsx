@@ -6,7 +6,7 @@ const Contact = () => {
     <section className={`${styles.paddingX} w-full relative z-[2]`}>
       <div className={`${styles.paddingY} flex flex-col`}>
         <div className="text-center mb-10">
-          <h2 className="font-merriweather font-medium lg:text-[50px] md:text-[48px] text-[30px] text-text-3 leading-[35px] mb-4">
+          <h2 className="font-poppins font-bold lg:text-[50px] md:text-[48px] text-[30px] text-text-3 leading-[35px] mb-4">
             Contact Us
           </h2>
           <p className="font-poppins font-normal sm:text-[20px] text-[14px] text-text-2 sm:leading-[26px] leading-[20px] max-w-[727px] mx-auto">

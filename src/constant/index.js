@@ -207,12 +207,15 @@ export const result = [
 ];
 
 export const assistance = [
-  "Private",
-  "Public (Marketplace)",
-  "Both",
-  "Private",
-  "Public (Marketplace)",
-  "Both",
+  "Lesson Creation",
+  "Grading",
+  "Reports Analytic",
+  "Related Question Generation",
+  "Support in Q&A",
+  "Recommendation",
+  "Dynamic Feedback Generation",
+  "Multi Languages Support",
+  "Learning Personalization Format Options",
 ];
 
 export const contact = [

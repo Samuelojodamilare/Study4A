@@ -7,7 +7,7 @@ const Revenue = () => {
     <section className={`${styles.paddingX} w-full relative overflow-visible`}>
       <div className={` flex flex-col items-center w-full relative z-[2]`}>
         <h3
-          className={`font-merriweather text-center sm:font-medium font-bold lg:text-[50px] md:text-[48px] text-[20px] text-text-3 leading-[25px] sm:leading-[35px]`}>
+          className={`font-poppins text-center font-bold lg:text-[50px] md:text-[48px] text-[20px] text-text-3 leading-[25px] sm:leading-[35px]`}>
           Revenue Generation Mode
         </h3>
         <div className={`${layout.sectionReverse}`}>
