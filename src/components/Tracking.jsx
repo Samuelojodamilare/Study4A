@@ -8,9 +8,6 @@ const Tracking = () => {
     <section className={`relative ${styles.paddingX} w-full`}>
       <div className={`relative z-10 ${layout.section}`}>
         <div className={`${layout.sectionInfo}`}>
-          <div className="bg-secondary rounded-full sm:px-4 px-2 sm:py-2 py-1 sm:mb-7 mb-4">
-            <h2 className={`${styles.heading2}`}>TRACKING</h2>
-          </div>
 
           <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>Study Tracking</h3>
 

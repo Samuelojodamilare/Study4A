@@ -7,9 +7,6 @@ const Result = () => {
     <section className={`${styles.paddingX} w-full bg-bg-br relative z-[1]`}>
       <div className={`${layout.section} items-center`}>
         <div className={`${layout.sectionInfo}`}>
-          <div className="bg-secondary rounded-full sm:px-4 px-2 sm:py-2 py-1 sm:mb-7 mb-4">
-            <h2 className={`${styles.heading2}`}>RESULT</h2>
-          </div>
 
           <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
             Grading and Feedback

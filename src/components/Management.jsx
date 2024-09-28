@@ -17,13 +17,10 @@ const Management = () => {
         </div>
 
         <div className={`${layout.sectionInfo}`}>
-          <div className="bg-secondary rounded-full sm:px-4 px-2 sm:py-2 py-1 sm:mb-7 mb-4">
-            <h2 className={`${styles.heading2}`}>MANAGEMENT</h2>
-          </div>
 
-          <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
-            Classroom Management{" "}
-          </h3>
+        <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
+            Classroom Management
+        </h3>
 
           <p className={`${styles.paragraph} sm:mb-6 mb-4`}>
             Study4As equips educators with tools to effortlessly conduct

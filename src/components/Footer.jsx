@@ -21,7 +21,7 @@ const Footer = () => {
               />
             </div>
             <p className="font-merriweather font-normal text-[14px] leading-[28px] text-white pt-4">
-              School as A service
+              Data-driven, cohort-first learning
             </p>
           </div>
           {/* second column */}
@@ -66,7 +66,7 @@ const Footer = () => {
       {/* Bottom section */}
       <div className="flex justify-center items-center py-6">
         <p className="font-lato font-normal text-[14px] leading-[21px] text-white mr-2">
-          POWERED BY{" "}
+          A Product of Refined Solutions Systems
         </p>
         <div className="max-w-[116px] h-[29px]">
           <img

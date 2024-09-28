@@ -13,8 +13,7 @@ const Hero = ({ onBookDemoClick }) => {
         ref={parallaxRef}>
         <div className="flex flex-col justify-center sm:items-start items-center text-center sm:text-left px-6 sm:px-16">
           <h1 className="lg:max-w-[549px] sm:max-w-[600px] font-poppins text-text-3 text-[24px] sm:text-[40px] leading-[36px] sm:leading-[65px] font-extrabold">
-            An AI powered cloud-based, cohort centric multi-school LMS Software
-            Suite
+            AI-powered, gamified LMS Software Suite for cohort-based learning
           </h1>
           <p className="sm:max-w-[550px] lg:mt-5 mt-7 font-poppins text-text-2 font-normal sm:text-[18px] text-[16px] leading-[29.5px]">
             Study4As makes training, managing, tracking and follow-up learners

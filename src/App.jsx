@@ -42,7 +42,7 @@ function App() {
     <div className="pt-[4.75rem] lg:pt-[5.25rem] w-full overflow-hidden ">
       <Header onBookDemoClick={handleOpenDemo} />
       <Hero onBookDemoClick={handleOpenDemo} />
-      <Customization />
+     
       {isDemoPageOpen && (
         <Demo onClose={handleCloseDemo} onModalOpen={handleOpenModal} />
       )}
@@ -51,13 +51,13 @@ function App() {
       <Prepcohort />
       <Communication />
       <Role />
-      <School />
       <Operation />
       <Tracking />
       <CustomApp />
       <Revenue />
       <Result />
       <Assistant />
+      <Customization />
       <Contact />
       <Reviews />
       <RoadMap />

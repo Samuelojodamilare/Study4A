@@ -7,9 +7,9 @@ const Customization = () => {
     <section className={`${styles.paddingX} w-full`}>
       <div className={`${layout.section} items-center`}>
         <div className={`${layout.sectionInfo} `}>
-          <h2 className="font-poppins font-bold lg:text-[48px] sm:text-[38px] text-[30px] text-primary lg:leading-[35px] sm:leading-[21px] leading-[18px] max-w-[342px] sm:mb-6 mb-4 ">
+        <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
             Customization
-          </h2>
+          </h3>
           <p className="font-poppins font-normal text-text-1 lg:text-[24px] sm:text-[18px] text-[12px] lg:leading-[37px] sm:leading-[30.8px] leading-[20px] sm:max-w-[693px] max-w-[500px]">
             Our LMS is designed with flexibility at its core, allowing you to
             tailor it to your exact needs. Whether you want to add specific
