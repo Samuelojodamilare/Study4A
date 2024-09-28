@@ -5,7 +5,8 @@ import styles, { layout } from "../style";
 const Revenue = () => {
   return (
     <section className={`${styles.paddingX} w-full relative overflow-visible`}>
-      <div className={` flex flex-col items-center w-full relative z-[2]`}>
+      <div
+        className={` flex flex-col items-center w-full relative z-[2] sm:mt-16 mt-10`}>
         <h3
           className={`font-poppins text-center font-bold lg:text-[50px] md:text-[48px] text-[20px] text-text-3 leading-[25px] sm:leading-[35px]`}>
           Revenue Generation Mode

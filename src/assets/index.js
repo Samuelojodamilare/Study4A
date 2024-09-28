@@ -27,6 +27,8 @@ import appIcon1 from "./app-icons/icon-1.png";
 import appIcon2 from "./app-icons/icon-2.png";
 import appIcon3 from "./app-icons/icon-3.png";
 import appIcon4 from "./app-icons/icon-4.png";
+import appIcon5 from "./app-icons/icon-5.png";
+import securityBG from "./app-icons/Security-BG.png";
 
 import communicationIcon1 from "./communication/iconSvg-1.svg";
 import communicationIcon2 from "./communication/iconSvg-2.svg";
@@ -85,6 +87,8 @@ export {
   appIcon2,
   appIcon3,
   appIcon4,
+  appIcon5,
+  securityBG,
   communicationIcon1,
   communicationIcon2,
   communicationIcon3,

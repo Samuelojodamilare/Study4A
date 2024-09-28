@@ -21,6 +21,7 @@ import {
   facebook,
   customFill,
   customUnfill,
+  appIcon5,
 } from "../assets";
 
 export const management = [
@@ -105,8 +106,13 @@ export const app = [
   },
   {
     id: 3,
-    title: "Database",
+    title: "Cloud Database",
     iconUrl: appIcon4,
+  },
+  {
+    id: 4,
+    title: "AI in Cloud VM",
+    iconUrl: appIcon5,
   },
 ];
 

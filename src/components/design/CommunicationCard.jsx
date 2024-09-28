@@ -4,7 +4,7 @@ const CommunicationCard = ({ title, text, icon }) => {
       <div className="w-10 h-10 bg-secondary rounded-xl flex items-center justify-center mb-4">
         <img src={icon} alt={title} />
       </div>
-      <h3 className="font-poppins text-[16px] font-semibold leading-[35px] text-text-2 ">
+      <h3 className="font-poppins text-[16px] font-semibold leading-[25px] text-text-2 mb-2">
         {title}
       </h3>
       <p className="font-poppins font-medium text-[12px] leading-[15.5px] text-text-1 max-w-[286px] ">
