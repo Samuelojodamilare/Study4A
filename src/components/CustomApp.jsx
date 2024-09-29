@@ -5,11 +5,11 @@ import styles from "../style";
 const App = () => {
   return (
     <section
-      className={`${styles.paddingX} w-full relative z-[1]`}
+      className={`${styles.paddingX} w-full md:bg-cover md:bg-center md:bg-no-repeat bg-none relative z-[1]`}
       style={{ backgroundImage: `url(${securityBG})` }}>
       <div className={`${styles.paddingY}`}>
         <div className={`flex flex-col items-center mb-2`}>
-          <h2 className="font-poppins text-center font-bold lg:text-[52px] md:text-[48px] text-[20px] text-white leading-[35px] sm:mb-5 mb-3">
+          <h2 className="font-poppins text-center font-bold lg:text-[52px] md:text-[48px] text-[20px] text-white sm:leading-[50px] md:leading-[55px] leading-[30px] sm:mb-5 mb-3">
             Custom Web/Mobile App/AI Deployment
           </h2>
           <p className="font-lato font-normal sm:text-[18px] text-[12px] text-white sm:leading-[30px] leading-[20px] sm:max-w-[816px] max-w-[400px] text-center sm:mb-4 mb-2">
