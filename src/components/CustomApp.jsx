@@ -13,9 +13,7 @@ const App = () => {
             Custom Web/Mobile App/AI Deployment
           </h2>
           <p className="font-lato font-normal sm:text-[18px] text-[12px] text-white sm:leading-[30px] leading-[20px] sm:max-w-[816px] max-w-[400px] text-center sm:mb-4 mb-2">
-            Institution gets exclusive application deployed just for them. They
-            will enjoy customized experience which they can brand to their own
-            unique needs. Data Security is also what will be enjoyed
+            Built for scalability and security, our battle-tested technology allows you to effortlessly scale your learning. Provide learners with secure, on-the-go access to your training services anytime, anywhere. Enjoy a customizable experience that can be tailored and branded to meet unique needs.
           </p>
         </div>
 

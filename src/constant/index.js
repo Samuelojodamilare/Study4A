@@ -74,7 +74,7 @@ export const role = [
   "Super Admin Role",
 ];
 
-export const operation = ["Private", "Public (Marketplace)", "Both"];
+export const operation = ["Private (i.e. by invitation)", "Public (i.e. on Explore Marketplace)", "Both"];
 
 export const tracking = [
   "Course Completion",

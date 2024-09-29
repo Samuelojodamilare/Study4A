@@ -19,7 +19,7 @@ const Management = () => {
         <div className={`${layout.sectionInfo}`}>
 
         <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
-            Classroom Management
+            Cohort First
         </h3>
 
           <p className={`${styles.paragraph} sm:mb-6 mb-4`}>
