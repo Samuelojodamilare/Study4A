@@ -1,4 +1,4 @@
-import { S4ALogo } from "../assets";
+import { RSSLogo, S4ALogo } from "../assets";
 import { footer, socials } from "../constant";
 import styles from "../style";
 
@@ -20,24 +20,24 @@ const Footer = () => {
                 className="w-full h-auto object-contain"
               />
             </div>
-            <p className="font-merriweather font-normal text-[14px] leading-[28px] text-white pt-4">
+            <p className="font-merriweather font-normal text-center text-[14px] leading-[28px] text-white pt-4">
               Data-driven, cohort-first learning
             </p>
           </div>
           {/* second column */}
           <div className="flex flex-col justify-center items-center mb-6 sm:mb-0">
-            <h3 className="font-lato font-bold text-[14px] leading-[16px] text-white mb-4">
+            <h3 className="font-lato font-bold text-[16px] leading-[16px] text-white mb-4">
               CONTACT
             </h3>
             {footer.map((items) => (
-              <div key={items.id} className="flex items-center mb-2">
+              <div key={items.id} className="flex items-center mb-3">
                 <img
                   src={items.iconUrl}
                   alt={items.text}
                   className="w-[20px] h-[20px] mr-4"
                 />
                 <p
-                  className={`font-lato font-normal text-[14px] leading-[21px] text-white`}>
+                  className={`font-lato font-normal text-center sm:text-[14px] text-[12px] leading-[21px] text-white max-w-[200px]`}>
                   {items.text}
                 </p>
               </div>
@@ -57,7 +57,7 @@ const Footer = () => {
                 </a>
               ))}
             </div>
-            <p className="font-lato font-normal text-[14px] leading-[21px] text-white">
+            <p className="font-lato font-normal text-[14px] text-center leading-[21px] text-white">
               Copyright © 2024 | All right reserved
             </p>
           </div>
@@ -68,9 +68,9 @@ const Footer = () => {
         <p className="font-lato font-normal text-[14px] leading-[21px] text-white mr-2">
           A Product of Refined Solutions Systems
         </p>
-        <div className="max-w-[116px] h-[29px]">
+        <div className="max-w-[116px] h-[60px] bg-white">
           <img
-            src={S4ALogo}
+            src={RSSLogo}
             alt="S4A logo"
             className="h-full w-full object-contain"
           />

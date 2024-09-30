@@ -8,7 +8,6 @@ const Role = () => {
     <section className={`${styles.paddingX} w-full`}>
       <div className={`${layout.section} items-center`}>
         <div className={`${layout.sectionInfo}`}>
-
           <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
             Role/Staff Management
           </h3>
@@ -61,7 +60,7 @@ const Role = () => {
             <ScrollParallax isAbsolutelyPositioned>
               <div className="flex justify-center items-center absolute top-[40%] right-[0%] bg-bg-ct rounded-xl w-[30%] sm:w-[25%] px-2 sm:px-3 py-3 sm:py-4 ">
                 <p className="font-merriweather font-semibold text-text-2 text-[10px] sm:text-[16px] leading-[18px] sm:leading-[28px] max-w-[150px]">
-                  Maxixmum admin role
+                  Maximum admin role
                 </p>
               </div>
             </ScrollParallax>

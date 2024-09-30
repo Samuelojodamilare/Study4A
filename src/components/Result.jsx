@@ -7,13 +7,12 @@ const Result = () => {
     <section className={`${styles.paddingX} w-full bg-bg-br relative z-[1]`}>
       <div className={`${layout.section} items-center`}>
         <div className={`${layout.sectionInfo}`}>
-
           <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
             Grading and Feedback
           </h3>
 
           <p className={`${styles.paragraph} sm:mb-6 mb-4`}>
-            Simplify graidng process and provide valuable, constructive feedback
+            Simplify grading process and provide valuable, constructive feedback
             with our efficient tools which improves the overall learning
             experience
           </p>

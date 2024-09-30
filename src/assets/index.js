@@ -5,7 +5,7 @@ import gradingLaptop from "./grading-laptop.png";
 import gradient from "./gradient.png";
 import managementImage from "./mgt-image.png";
 import operationImage from "./service-operation1.png";
-import roadMap from "./road-map.png";
+import roadMap from "./road-map.webp";
 import roleImage from "./role-img.png";
 import resultImage from "./resultImg.png";
 import stars from "./stars.png";
@@ -38,6 +38,7 @@ import communicationIcon4 from "./communication/iconSvg-4.svg";
 import envelope from "./contact/envelopesvg.svg";
 import location from "./contact/locationsvg.svg";
 import phone from "./contact/phonesvg.svg";
+import RSSLogo from "./footer/RSS-Logo.png";
 
 import twitter from "./footer/devicon_twitter.png";
 import facebook from "./footer/Facebook.png";
@@ -63,6 +64,7 @@ export {
   assistanceimage,
   S4ALogo,
   S4ALogo2,
+  RSSLogo,
   chart,
   caret,
   check,
