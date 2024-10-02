@@ -18,6 +18,7 @@ import caret from "./caret.svg";
 import customImg from "./customizationImg.png";
 import customFill from "./customFill.svg";
 import customUnfill from "./customUnfill.svg";
+import valueImg from "./valueImg.png";
 
 import modalLeft from "./modal/modal_left.png";
 import modalRight from "./modal/modal_right.png";
@@ -113,5 +114,6 @@ export {
   guy,
   lady,
   polygon,
+  valueImg,
   rating,
 };

@@ -26,15 +26,20 @@ import {
 
 export const management = [
   "Creation of Courses",
-  "Question and Answer",
-  "Group Creation/ Management",
-  "Feedback",
+  "Question & Answer",
+  "Cohort Creation/ Management",
+  "Feedback Systems",
   "Grading System",
   "Integrated Quiz",
-  "Integrated Form",
+  "Integrated Forms & Polls",
   "Invitation to Class",
   "Reusable Resources",
-  "Syllabus Creation",
+  "Course Syllabus",
+  "Interactive Courses",
+  "One-on-One Free or Billed Support",
+  "Realtime Announcements",
+  "	Realtime Instructor Moderated Q&As",
+  "Team Tasks Support",
 ];
 
 export const communication = [
@@ -65,16 +70,22 @@ export const communication = [
 ];
 
 export const role = [
-  "Role Creation",
-  "Role Assignment",
+  "Role Creation & Management",
+  "Role Assignment & Revocation",
   "Role Permission",
   "Staff Onboarding",
   "Multiple Role Assignment",
   "Permission Removal",
   "Super Admin Role",
+  "Course Lead Editor",
+  "Course Editor Assistants",
 ];
 
-export const operation = ["Private (i.e. by invitation)", "Public (i.e. on Explore Marketplace)", "Both"];
+export const operation = [
+  "Private (i.e. by invitation)",
+  "Public (i.e. on Explore Marketplace)",
+  "Both",
+];
 
 export const tracking = [
   "Course Completion",
@@ -86,6 +97,27 @@ export const tracking = [
   "Graphical Analytic Report",
   "Learning Motivation Module",
   "Cumulative Estimation",
+  "Behavioral reports",
+  "Activities Point System",
+  "Cohort / Institution Leadership Board",
+  "School Practice Board",
+  "Learning Recommendation",
+  "Institution Configurable Reporting",
+];
+
+export const addedValue = [
+  "Reusable Resources",
+  "Question Bank System",
+  "Flash Card System",
+  "Market Place Support",
+  "Realtime and Scoped Notification",
+  "Industrial / Internship Project Support",
+  "School Project Support",
+  "Study Offline Support",
+  "Support Gamification",
+  "Accessible at client Subdomain",
+  "Learning motivation module",
+  "Abuse Whistle Blowing support",
 ];
 
 export const app = [
@@ -209,6 +241,8 @@ export const result = [
   "Grade Summary",
   "Grade Email Feedback",
   "Grade Details",
+  "Peer Grading",
+  "Grade Auto Feedback",
   "Result Publishing",
 ];
 
@@ -240,8 +274,7 @@ export const contact = [
   {
     id: 2,
     text: "Locate Us",
-    content:
-      "57 Tigress Street, A1B0L6, St. John's, Newfoundland, Canada.",
+    content: "57 Tigress Street, A1B0L6, St. John's, Newfoundland, Canada.",
     iconUrl: location,
   },
 ];

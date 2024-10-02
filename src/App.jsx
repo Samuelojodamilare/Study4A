@@ -19,6 +19,7 @@ import { useState } from "react";
 import Demo from "./components/Demo";
 import DemoNotification from "./components/DemoNotification";
 import Customization from "./components/Customization";
+import AddedValue from "./components/AddedValue";
 
 function App() {
   const [isDemoPageOpen, setIsDemoPageOpen] = useState(false);
@@ -42,7 +43,7 @@ function App() {
     <div className="pt-[4.75rem] lg:pt-[5.25rem] w-full overflow-hidden ">
       <Header onBookDemoClick={handleOpenDemo} />
       <Hero onBookDemoClick={handleOpenDemo} />
-     
+
       {isDemoPageOpen && (
         <Demo onClose={handleCloseDemo} onModalOpen={handleOpenModal} />
       )}
@@ -58,6 +59,7 @@ function App() {
       <Result />
       <Assistant />
       <Customization />
+      <AddedValue />
       <Contact />
       <Reviews />
       <RoadMap />
