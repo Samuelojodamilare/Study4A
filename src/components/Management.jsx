@@ -7,20 +7,19 @@ const Management = () => {
     <section className={`${styles.paddingX} w-full`}>
       <div className={`${layout.sectionReverse}`}>
         <div className={`${layout.sectionImgReverse}`}>
-          <img
-            src={managementImage}
-            alt="management features image"
-            width={733}
-            height={496}
-            className="w-full h-auto"
-          />{" "}
+          <div className="w-[600px] h-auto">
+            <img
+              src={managementImage}
+              alt="management features image"
+              width={733}
+              height={496}
+              className="w-full h-auto"
+            />
+          </div>
         </div>
 
         <div className={`${layout.sectionInfo}`}>
-
-        <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
-            Cohort First
-        </h3>
+          <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>Cohort First</h3>
 
           <p className={`${styles.paragraph} sm:mb-6 mb-4`}>
             Study4As equips educators with tools to effortlessly conduct
