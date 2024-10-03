@@ -340,19 +340,19 @@ export const socials = [
     id: "0",
     title: "Twitter",
     iconUrl: twitter,
-    url: "https://x.com/PrepCohort",
+    url: "https://x.com/Study4AsLimited",
   },
   {
     id: "1",
     title: "Instagram",
     iconUrl: instagram,
-    url: "https://www.instagram.com/prepcohort/",
+    url: "https://www.instagram.com/study4as_limited/",
   },
 
   {
     id: "2",
     title: "Facebook",
     iconUrl: facebook,
-    url: "https://web.facebook.com/PrepCohort",
+    url: "https://www.facebook.com/profile.php?id=100092586077396&mibextid=ZbWKwL",
   },
 ];
