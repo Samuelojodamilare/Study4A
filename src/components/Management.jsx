@@ -19,13 +19,11 @@ const Management = () => {
         <div className={`${layout.sectionInfo}`}>
 
         <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
-            Cohort First
+            Cohort First learning
         </h3>
 
           <p className={`${styles.paragraph} sm:mb-6 mb-4`}>
-            Study4As equips educators with tools to effortlessly conduct
-            classroom lessons, ensuring a smooth and uninterrupted delivery of
-            instruction
+            Study4AS equips educators with tools to replicate a classroom-like experience online, fostering continuous communication and engagement.
           </p>
           <h3 className="font-poppins font-semibold sm:text-[24px] text-[18px] text-text-2 leading-[35px] sm:mb-6 mb-4">
             Management Feature List:

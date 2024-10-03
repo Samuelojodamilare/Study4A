@@ -13,9 +13,7 @@ const Role = () => {
           </h3>
 
           <p className={`${styles.paragraph} sm:mb-6 mb-4`}>
-            Schools can efficiently manage staff roles and appointments on
-            Study4as, empowering administrators to assign specific roles to
-            educators and other staff members
+            Each S4A deployment allows schools to establish their own custom user/role systems and course editors, simplifying the process for administrators to delegate responsibilities.
           </p>
 
           <h3 className="font-poppins font-semibold sm:text-[24px] text-[18px] text-text-2 leading-[35px] sm:mb-6 mb-4 ">

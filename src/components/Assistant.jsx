@@ -29,7 +29,7 @@ const Assistant = () => {
 
           <h3 className="font-poppins font-semibold sm:text-[24px] text-[18px] text-text-2 leading-[35px] sm:mb-6 mb-4">
             {" "}
-            Feature List:
+            AI Assistant Feature List:
           </h3>
 
           <ul className="grid sm:grid-cols-2 grid-cols-1 gap-x-6 gap-y-4">
