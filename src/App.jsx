@@ -1,4 +1,3 @@
-import Communication from "./components/Communication";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Management from "./components/Management";
@@ -49,8 +48,8 @@ function App() {
       )}
       {isModalOpen && <DemoNotification onClose={closeBoth} />}
       <Management />
+      <AddedValue />
       <Prepcohort />
-      <Communication />
       <Role />
       <Operation />
       <Tracking />
@@ -59,7 +58,6 @@ function App() {
       <Result />
       <Assistant />
       <Customization />
-      <AddedValue />
       <Contact />
       <Reviews />
       <RoadMap />

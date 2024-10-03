@@ -11,9 +11,7 @@ const AddedValue = () => {
             Added Value and Features
           </h3>
           <p className={`${styles.paragraph} sm:mb-6 mb-4`}>
-            Tools crafted to foster dialogue among students and between them and
-            their instructors, mirroring the interactive nature of traditional
-            classroom learning.
+            Study4As goes beyond simply replicating the classroom experience online for institutions; it also enhances their efficiency in preparing students to achieve A-grade readiness in their studies.
           </p>
           <h3 className="font-poppins font-semibold text-[18px] sm:text-[24px] text-text-2 leading-[35px] sm:mb-6 mb-4 ">
             Added Feature List:

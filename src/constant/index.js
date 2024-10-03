@@ -38,7 +38,7 @@ export const management = [
   "Interactive Courses",
   "One-on-One Free or Billed Support",
   "Realtime Announcements",
-  "	Realtime Instructor Moderated Q&As",
+  "Realtime Instructor Moderated Q&As",
   "Team Tasks Support",
 ];
 
@@ -268,7 +268,7 @@ export const contact = [
   {
     id: 1,
     text: "Email Us",
-    content: "info@prepcohort.com",
+    content: "info@study4as.com",
     iconUrl: envelope,
   },
   {
@@ -320,7 +320,7 @@ export const reviews = [
 export const footer = [
   {
     id: 0,
-    text: "info@prepcohort.com",
+    text: "info@study4as.com",
     iconUrl: envelope,
   },
   {

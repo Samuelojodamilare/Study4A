@@ -21,17 +21,15 @@ const Operation = () => {
         <div className={`${layout.sectionInfo}`}>
 
           <h3 className={`${styles.heading3} sm:mb-6 mb-2`}>
-            Service Operation Mode
+            Courses Service Mode
           </h3>
 
           <p className={`${styles.paragraph} sm:mb-6 mb-4`}>
-            Operating in a versatile service mode, Study4as offers the
-            flexibility of private, public and combined settings, based on
-            specific needs and preferences
+            Courses can be offered internally by invitation, made available to the public through the marketplace for subscription, or operate in both capacities.
           </p>
 
           <h3 className="font-poppins font-semibold sm:text-[24px] text-[18px] text-text-2 leading-[35px] sm:mb-6 mb-4">
-            Operation Feature List:
+            Courses Service Mode:
           </h3>
 
           <ul>
