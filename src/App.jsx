@@ -4,7 +4,6 @@ import Management from "./components/Management";
 import Operation from "./components/Operation";
 import Prepcohort from "./components/Prepcohort";
 import Role from "./components/Role";
-import School from "./components/School";
 import Tracking from "./components/Tracking";
 import CustomApp from "./components/CustomApp";
 import Revenue from "./components/Revenue";

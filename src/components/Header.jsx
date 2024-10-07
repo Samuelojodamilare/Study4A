@@ -50,7 +50,7 @@ const Header = ({ onBookDemoClick }) => {
         </div>
 
         <Button
-          onClick={onBookDemoClick}
+          // onClick={onBookDemoClick}
           className="border transition hover:border-white/50">
           Book a Demo
         </Button>
