@@ -42,10 +42,10 @@ function App() {
       <Header onBookDemoClick={handleOpenDemo} />
       <Hero onBookDemoClick={handleOpenDemo} />
 
-      {isDemoPageOpen && (
+      {/* {isDemoPageOpen && (
         <Demo onClose={handleCloseDemo} onModalOpen={handleOpenModal} />
       )}
-      {isModalOpen && <DemoNotification onClose={closeBoth} />}
+      {isModalOpen && <DemoNotification onClose={closeBoth} />} */}
       <Management />
       <AddedValue />
       <Prepcohort />
