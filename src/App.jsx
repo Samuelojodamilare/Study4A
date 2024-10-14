@@ -13,39 +13,14 @@ import Contact from "./components/Contact";
 import Reviews from "./components/Reviews";
 import RoadMap from "./components/RoadMap";
 import Footer from "./components/Footer";
-import { useState } from "react";
-import Demo from "./components/Demo";
-import DemoNotification from "./components/DemoNotification";
 import Customization from "./components/Customization";
 import AddedValue from "./components/AddedValue";
 
 function App() {
-  const [isDemoPageOpen, setIsDemoPageOpen] = useState(false);
-  const [isModalOpen, setModalOpen] = useState(false);
-
-  const handleOpenDemo = () => {
-    setIsDemoPageOpen(true);
-  };
-  const handleCloseDemo = () => {
-    setIsDemoPageOpen(false);
-  };
-
-  const handleOpenModal = () => {
-    setModalOpen(true);
-  };
-  const closeBoth = () => {
-    setIsDemoPageOpen(false);
-    setModalOpen(false);
-  };
   return (
     <div className="pt-[4.75rem] lg:pt-[5.25rem] w-full overflow-hidden ">
-      <Header onBookDemoClick={handleOpenDemo} />
-      <Hero onBookDemoClick={handleOpenDemo} />
-
-      {/* {isDemoPageOpen && (
-        <Demo onClose={handleCloseDemo} onModalOpen={handleOpenModal} />
-      )}
-      {isModalOpen && <DemoNotification onClose={closeBoth} />} */}
+      <Header />
+      <Hero />
       <Management />
       <AddedValue />
       <Prepcohort />
