@@ -58,7 +58,8 @@ const Footer = () => {
               ))}
             </div>
             <p className="font-lato font-normal text-[14px] text-center leading-[21px] text-white">
-              Copyright © 2024 | All right reserved
+              Copyright © <span>{new Date().getFullYear()}</span> | All right
+              reserved
             </p>
           </div>
         </div>

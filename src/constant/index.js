@@ -42,6 +42,29 @@ export const management = [
   "Team Tasks Support",
 ];
 
+export const update = [
+  {
+    id: 0,
+    title: "ISO 27001",
+  },
+  {
+    id: 1,
+    title: "SOC 2",
+  },
+  {
+    id: 2,
+    title: "SCORM",
+  },
+  {
+    id: 3,
+    title: "LRS",
+  },
+  {
+    id: 4,
+    title: "xAPI",
+  },
+];
+
 export const communication = [
   {
     id: 0,

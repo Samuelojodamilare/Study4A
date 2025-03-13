@@ -34,7 +34,7 @@ const Header = ({ onBookDemoClick }) => {
               src={S4ALogo}
               width={145}
               height={40}
-              alt="S4A"
+              alt="S4A logo"
               className="w-full h-auto object-contain"
             />
           </a>
