@@ -25,7 +25,7 @@ const App = () => {
           {app.map((items) => (
             <div
               key={items.id}
-              className="flex flex-col justify-center items-center bg-white/25 border border-bd-1 shadow-md rounded-lg p-6 m-2 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg ">
+              className="flex flex-col justify-center items-center bg-white/25 border border-bd-1 shadow-md rounded-lg p-6 m-2 origin-center transition-all duration-500 hover:scale-105 hover:shadow-lg will-change-transform">
               <div className="flex items-center max-w-[150px] h-[114.5px] mb-2">
                 <img
                   src={items.iconUrl}

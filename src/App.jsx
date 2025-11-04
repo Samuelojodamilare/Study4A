@@ -15,14 +15,14 @@ import RoadMap from "./components/RoadMap";
 import Footer from "./components/Footer";
 import Customization from "./components/Customization";
 import AddedValue from "./components/AddedValue";
-import Updates from "./components/Updates";
+// import Updates from "./components/Updates";
 
 function App() {
   return (
     <div className="pt-[4.75rem] lg:pt-[5.25rem] w-full overflow-hidden ">
       <Header />
       <Hero />
-      <Updates />
+      {/* <Updates /> */}
       <Management />
       <AddedValue />
       <Prepcohort />

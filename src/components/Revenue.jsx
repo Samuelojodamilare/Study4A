@@ -24,7 +24,7 @@ const Revenue = () => {
             {revenue.map((items) => (
               <div
                 key={items.id}
-                className={`flex items-center p-4 shadow-md rounded-lg w-full bg-white border border-bd-2 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg ${
+                className={`flex items-center p-4 shadow-md rounded-lg w-full bg-white border border-bd-2 origin-center transition-transform duration-500 hover:scale-105 hover:shadow-lg will-change-transform ${
                   items.id < 3 ? "mb-4" : ""
                 }`}>
                 <div className="bg-secondary max-w-[80px] h-auto p-3 rounded-full flex items-center justify-center mr-4">
