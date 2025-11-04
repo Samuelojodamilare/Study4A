@@ -17,7 +17,7 @@ const Contact = () => {
           {contact.map((items) => (
             <div
               key={items.id}
-              className="relative flex flex-col text-center items-center border m-3 rounded-lg bg-bg-ct p-6 w-full sm:w-[30%] max-w-[350px] transition-transform duration-300 hover:scale-105 hover:shadow-lg mb-6 sm:mb-0"
+              className="relative flex flex-col text-center items-center border m-3 rounded-lg bg-bg-ct p-6 w-full sm:w-[30%] max-w-[350px] origin-center transition-all duration-500 hover:scale-105 hover:shadow-lg mb-6 sm:mb-0 will-change-transform"
               style={{ minHeight: "250px" }}>
               <div className=" transform translate-y-[-85%] flex justify-center items-center p-4 bg-primary rounded-full lg:w-[70px] w-[60px] lg:h-[70px] h-[60px]">
                 <div className="max-w-[50px] h-auto">

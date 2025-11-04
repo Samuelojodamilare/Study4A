@@ -269,6 +269,24 @@ export const result = [
   "Result Publishing",
 ];
 
+export const bgColors = [
+  "bg-purple-100",
+  "bg-pink-100",
+  "bg-yellow-100",
+  "bg-green-100",
+  "bg-blue-100",
+  "bg-red-100",
+];
+
+export const textColors = [
+  "text-purple-800",
+  "text-pink-800",
+  "text-yellow-800",
+  "text-green-800",
+  "text-blue-800",
+  "text-red-800",
+];
+
 export const assistance = [
   "Lesson Creation",
   "Grading",
@@ -305,35 +323,35 @@ export const contact = [
 export const reviews = [
   {
     id: 0,
-    title: "Clement James",
+    title: "Oluwafemi Adebayo",
     rating: "5",
-    text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
+    text: "Study4As has made teaching and exam preparation so much easier. My students love the interactive lessons, and the AI assistant keeps them motivated to learn independently.",
     iconUrl: guy,
   },
   {
     id: 1,
-    title: "Cynthia Rose",
+    title: "Lateef Olatunji",
     rating: "4",
-    text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
+    text: "Study4As has transformed how I prepare students for SSCE and JAMB. Its intuitive interface, AI support, and flexible learning tools make studying easier and more effective. A truly innovative platform!",
     iconUrl: lady,
   },
   {
     id: 2,
-    title: "Steven Leon",
+    title: "Prepcohort Admin",
     rating: "5",
-    text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
+    text: "Implementing Study4As in our institution has been one of our best decisions. It bridges classroom learning with digital innovation, giving students access to quality resources anytime, anywhere. It’s truly the future of learning.",
     iconUrl: guy,
   },
   {
     id: 3,
-    title: "Mary Laura",
+    title: "Joshua Ejembi",
     rating: "5",
-    text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
+    text: "It a great app with a good user experience, I didn't have any issues with the onboarding process. I am sure learning will be fun with Prepcohort",
     iconUrl: lady,
   },
   {
     id: 4,
-    title: "Floyd Cathryn",
+    title: "Mmachi Goodness",
     rating: "4",
     text: "Study4as has transformed my online learning experience. The interactive tools and easy navigation make studying enjoyable. A game-changer for remote education!",
     iconUrl: lady,

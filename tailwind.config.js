@@ -26,6 +26,9 @@ export default {
           3: "rgba(230, 230, 230, 1)",
         },
       },
+      screens: {
+        xs: { max: "385px" },
+      },
       fontFamily: {
         lato: "var(--font-lato)",
         merriweather: "var(--font-merriweather)",
